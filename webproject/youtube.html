@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Personal data privacy</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom fonts for this template -->
+	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<!-- Custom styles for this template -->
+	<link href="css/agency.min.css" rel="stylesheet">
+
+	<!-- Temporary navbar container fix -->
+	<style>
+		.navbar-toggler {
+			z-index: 1;
+		}
+		
+		@media (max-width: 576px) {
+			nav> .container {
+				width: 100%;
+			}
+		}
+	</style>
+
+</head>
+<script>
+	function onYouTubeIframeAPIReady() {
+		var player;
+		player = new YT.Player('player', {
+			videoId: 'M7lc1UVf-VE',
+			playerVars: {
+				'autoplay': 1,
+				'controls': 0
+			},
+			events: {
+				'onReady': onPlayerReady,
+				'onPlaybackQualityChange': onPlayerPlaybackQualityChange,
+				'onStateChange': onPlayerStateChange,
+				'onError': onPlayerError
+			}
+		});
+	}
+</script>
+
+<body id="page-top">
+
+	<!-- Navigation -->
+	<nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" id="mainNav">
+		<div class="container">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu <i class="fa fa-bars"></i>
+            </button>
+			<a class="navbar-brand" href="index2.html">Personal data privacy</a>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- DEL Header to Contact -->
+
+
+	<!-- Change Login -->
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading">Video information</h2>
+					<h3 class="section-subheading text-muted">Watch more</h3>
+				</div>
+			</div>
+			<div class="row">
+				<h4 class="section-heading">The Six Data Protection Principles under The Personal Data (Privacy) Ordinance</h4>
+				<p class="text-warning">by Office of the Privacy Commissioner for Personal Data.</p>
+				<div class="col-lg-12" id="player"></div>
+				<p class="text-white">Everyone who is responsible for handling data (Data User) should follow the Six Data Protection Principles ("DPPs") which represents the core of the Ordinance covering the life cycle of a piece of personal data.</p>
+				
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+
+
+	<!-- Del Portfolio Modals -->
+
+
+
+	<!-- Bootstrap core JavaScript -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/tether/tether.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	<!-- Contact form JavaScript -->
+	<script src="js/jqBootstrapValidation.js"></script>
+	<script src="js/contact_me.js"></script>
+
+	<!-- Custom scripts for this template -->
+	<script src="js/agency.min.js"></script>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>
+	// 2. This code loads the IFrame Player API code asynchronously.
+	var tag = document.createElement('script');
+
+	tag.src = "https://www.youtube.com/iframe_api";
+	var firstScriptTag = document.getElementsByTagName('script')[0];
+	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+	// 3. This function creates an <iframe> (and YouTube player)
+	//    after the API code downloads.
+	var player;
+
+	function onYouTubeIframeAPIReady() {
+		player = new YT.Player('player', {
+			height: '390',
+			width: '640',
+			videoId: 'j6fO6JVGGHg',
+			events: {
+				'onReady': onPlayerReady,
+				'onStateChange': onPlayerStateChange
+			}
+		});
+	}
+
+	// 4. The API will call this function when the video player is ready.
+	function onPlayerReady(event) {
+		event.target.playVideo();
+	}
+
+	// 5. The API calls this function when the player's state changes.
+	//    The function indicates that when playing a video (state=1),
+	//    the player should play for six seconds and then stop.
+	var done = false;
+
+	function onPlayerStateChange(event) {
+		if (event.data == YT.PlayerState.PLAYING && !done) {
+			setTimeout(stopVideo, 6000);
+			done = true;
+		}
+	}
+
+	function stopVideo() {
+		player.stopVideo();
+	}
+</script>
+
+
+</html>

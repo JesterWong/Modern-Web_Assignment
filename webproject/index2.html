@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="google-site-verification" content="qJpi7jJ3LMllcwTeB6lV2yiS63pOWOlD9a1Z3HWwFyo" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Personal data privacy</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom fonts for this template -->
+	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<!-- Custom styles for this template -->
+	<link href="css/agency.min.css" rel="stylesheet">
+
+	<!-- Temporary navbar container fix -->
+	<style>
+		.navbar-toggler {
+			z-index: 1;
+		}
+		
+		@media (max-width: 576px) {
+			nav> .container {
+				width: 100%;
+			}
+		}
+	</style>
+
+	<style>
+		#map {
+			height: 400px;
+			width: 100%;
+		}
+		
+		#myInput {
+			background-image: url('/css/searchicon.png');
+			/* Add a search icon to input */
+			background-position: 10px 12px;
+			/* Position the search icon */
+			background-repeat: no-repeat;
+			/* Do not repeat the icon image */
+			width: 100%;
+			/* Full-width */
+			font-size: 16px;
+			/* Increase font-size */
+			padding: 12px 20px 12px 40px;
+			/* Add some padding */
+			border: 1px solid #ddd;
+			/* Add a grey border */
+			margin-bottom: 12px;
+			/* Add some space below the input */
+		}
+		
+		#myUL {
+			/* Remove default list styling */
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		#myUL li a {
+			border: 1px solid #ddd;
+			/* Add a border to all links */
+			margin-top: -1px;
+			/* Prevent double borders */
+			background-color: #f6f6f6;
+			/* Grey background color */
+			padding: 12px;
+			/* Add some padding */
+			text-decoration: none;
+			/* Remove default text underline */
+			font-size: 18px;
+			/* Increase the font-size */
+			color: black;
+			/* Add a black text color */
+			display: block;
+			/* Make it into a block element to fill the whole list */
+		}
+		
+		#myUL li a.header {
+			background-color: #e2e2e2;
+			/* Add a darker background color for headers */
+			cursor: default;
+			/* Change cursor style */
+		}
+		
+		#myUL li a:hover:not(.header) {
+			background-color: #eee;
+			/* Add a hover effect to all links, except for headers */
+		}
+	</style>
+
+
+
+</head>
+<script>
+	//function search() {
+	//	alert("search");
+	//	var searchKey = $("#key").val();
+	//	var searchResult = $.getJSON("https://api.cognitive.microsoft.com/bing/v5.0/images/search?width=650&height=435&subscription-key=cebbe5720816444fb7d3953a68927840&q=" + searchKey, function() {
+
+	//			console.log("success");
+	//		})
+	//		.done(function() {
+	//			console.log("second success");
+	//		})
+	//		.fail(function() {
+	///			console.log("error");
+	//		})
+	//.always(function() {
+	//			console.log("complete");
+	//		});
+	//	searchResult.complete(function() {
+	//		alert(searchResult['name']);
+	//		alert("complete");
+	//		$("#image1").attr("src", JSON.parse(searchResult.responseText).value[0].thumbnailUrl);
+	//		$("#image2").attr("src", JSON.parse(searchResult.responseText).value[1].thumbnailUrl);
+	//		$("#image3").attr("src", JSON.parse(searchResult.responseText).value[2].thumbnailUrl);
+	//		$("#image4").attr("src", JSON.parse(searchResult.responseText).value[3].thumbnailUrl);
+	//		$("#image5").attr("src", JSON.parse(searchResult.responseText).value[4].thumbnailUrl);
+	//		$("#image6").attr("src", JSON.parse(searchResult.responseText).value[5].thumbnailUrl);
+	//		$("#image7").attr("src", JSON.parse(searchResult.responseText).value[6].thumbnailUrl);
+	//		$("#image8").attr("src", JSON.parse(searchResult.responseText).value[7].thumbnailUrl);
+	//		$("#image9").attr("src", JSON.parse(searchResult.responseText).value[8].thumbnailUrl);
+	//	});
+
+
+	//}
+</script>
+
+<body id="page-top">
+
+	<!-- Navigation -->
+	<nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" id="mainNav">
+		<div class="container">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu <i class="fa fa-bars"></i>
+            </button>
+			<a class="navbar-brand" href="#page-top">Personal data privacy</a>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#services">Introduction</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio">News</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="youtube.html">Video</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#team">search</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Logout</a>
+					</li>
+
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+
+	<!-- Header -->
+	<header class="masthead">
+		<div class="container">
+			<div class="intro-text">
+				<div class="intro-lead-in">Hello Member!</div>
+				<div class="intro-heading">Your Personal data still safety?</div>
+				<a href="#portfolio" class="btn btn-xl">Learn More</a>
+			</div>
+		</div>
+	</header>
+
+	<!-- Services -->
+	<section id="services">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading">Introduction</h2>
+					<h3 class="section-subheading text-muted">Why our personal data is not safety?</h3>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-lg-12">
+					<img class="img-fluid d-block mx-auto" src="img/portfolio/PERSON.jpg" alt="">
+					<h4 class="service-heading">Data breach</h4>
+					<p class="text-muted">This may include incidents such as theft or loss of digital media such as computer tapes, hard drives, or laptop computers containing such media upon which such information is stored unencrypted, posting such information on the world wide web or
+						on a computer otherwise accessible from the Internet without proper information security precautions.</p>
+				</div>
+				<div class="col-lg-12">
+					<img class="img-fluid d-block mx-auto" src="img/portfolio/intro.jpg" alt="">
+					<h4 class="service-heading">Diffusion of cybercrime</h4>
+					<p class="text-muted">The tremendous growth in the use of information technology and Internet has brought us great convenience. However, it also creates a great potential for abuse by criminals. With the cross-border, open-platform, highly-interconnected nature of this
+						virtual dimension, the impacts of cyber crimes are far-reaching, and would require integral effort from all parties involved in order to effectively combat cyber crimes.</p>
+				</div>
+				<div class="col-lg-12">
+					<img class="img-fluid d-block mx-auto" src="img/portfolio/websec.jpg" alt="">
+					<h4 class="service-heading">Website security</h4>
+					<p class="text-muted">You may not think your site has anything worth being hacked for, but websites are compromised all the time. The majority of website security breaches are not to steal your data or deface your website, but instead attempts to use your server as an
+						email relay for spam, or to setup a temporary web server, normally to serve files of an illegal nature. Other very common ways to abuse compromised machines include using your servers as part of a botnet, or to mine for Bitcoins. You could even
+						be hit by ransomware.</p>
+					<p class="text-muted">Hacking is regularly performed by automated scripts written to scour the Internet in an attempt to exploit known website security issues in software. Here are our top 10 tips to help keep you and your site safe online.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--list-->
+	<section class="bg-faded" id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading">news</h2>
+					<h3 class="section-subheading text-muted">Get the latest information.</h3>
+				</div>
+			</div>
+			<div class="row">
+
+				<div class="row">
+					<div class="col-md-4 col-sm-6 portfolio-item">
+						<div class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+							<div class="portfolio-hover">
+							</div>
+							<img id="image1" class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="image 1">
+						</div>
+						<div class="portfolio-caption">
+							<h4>Capability of institutions </h4>
+							<p class="text-muted">07 Jun 2017</p>
+							<div class="overlay">
+								<a id="a1" class="fa fa-plus fa-3x" onclick="doConfirm('image1')" href="#"></a>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-md-4 col-sm-6 portfolio-item">
+						<div class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+							<div class="portfolio-hover">
+							</div>
+							<img id="image2" class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="image2">
+						</div>
+						<div class="portfolio-caption">
+							<h4>Guards against ransomware attacks</h4>
+							<p class="text-muted">17 May 2017</p>
+							<div class="overlay">
+								<a id="a2" class="fa fa-plus fa-3x" onclick="doConfirm('image2')" href="#"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 portfolio-item">
+						<div class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+							<div class="portfolio-hover">
+
+							</div>
+							<img id="image3" class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="image3">
+						</div>
+						<div class="portfolio-caption">
+							<h4>Stays vigilant </h4>
+							<p class="text-muted">15 May 2017</p>
+							<div class="overlay">
+								<a id="a3" class="fa fa-plus fa-3x" onclick="doConfirm('image3')" href="#"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 portfolio-item">
+						<div class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+							<div class="portfolio-hover">
+
+							</div>
+							<img id="image4" class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="image4">
+						</div>
+						<div class="portfolio-caption">
+							<h4>PUBLISHES INVESTIGATION REPORT</h4>
+							<p class="text-muted">12 June 2017</p>
+							<div class="overlay">
+								<a id="a4" class="fa fa-plus fa-3x" onclick="doConfirm('image4')" href="#"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 portfolio-item">
+						<div class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+							<div class="portfolio-hover">
+
+							</div>
+							<img id="image5" class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="image5">
+						</div>
+						<div class="portfolio-caption">
+							<h4>FOLLOWS UP ON PRIVACY CONCERNS OVER</h4>
+							<p class="text-muted">21 November 2016</p>
+							<div class="overlay">
+								<a id="a5" class="fa fa-plus fa-3x" onclick="doConfirm('image5')" href="#"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 portfolio-item">
+						<div class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+							<div class="portfolio-hover">
+
+							</div>
+							<img id="image6" class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="image6">
+						</div>
+						<div class="portfolio-caption">
+							<h4>E-WALLET</h4>
+							<p class="text-muted">25 August 2016</p>
+							<div class="overlay">
+								<a id="a6" class="fa fa-plus fa-3x" onclick="doConfirm('image6')" href="#"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 portfolio-item">
+						<!--		<div class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+							<div class="portfolio-hover">
+
+							</div>
+							<img id="image7" class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="image7">
+						</div>
+						<div class="portfolio-caption">
+							<h4>PUBLISHES INVESTIGATION REPORT</h4>
+							<p class="text-muted">12 June 2017</p>
+							<div class="overlay">
+								<a id="a7" class="fa fa-plus fa-3x" onclick="doConfirm('image7')" href="#"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 portfolio-item">
+						<div class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+							<div class="portfolio-hover">
+
+							</div>
+							<img id="image8" class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="image8">
+						</div>
+						<div class="portfolio-caption">
+							<h4>FOLLOWS UP ON PRIVACY CONCERNS OVER</h4>
+							<p class="text-muted">21 November 2016</p>
+							<div class="overlay">
+								<a id="a8" class="fa fa-plus fa-3x" onclick="doConfirm('image8')" href="#"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 portfolio-item">
+						<div class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+							<div class="portfolio-hover">
+
+							</div>
+							<img id="image9" class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="image9">
+						</div>
+						<div class="portfolio-caption">
+							<h4>E-WALLET</h4>
+							<p class="text-muted">25 August 2016</p>
+							<div class="overlay">
+								<a id="a9" class="fa fa-plus fa-3x" onclick="doConfirm('image9')" href="#"></a>
+							</div>
+						</div>
+					</div>-->
+					</div>
+				</div>
+	</section>
+
+
+
+	<!-- Team -->
+	<!--- Search function -->
+	<section class="bg-faded" id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading">Search</h2>
+					<h3 class="section-subheading text-muted">Search some things</h3>
+				</div>
+				<div class="col-lg-12" ng-app="">
+					<input class="form-control" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+					<p class="help-block text-danger"></p>
+					<div id="search_result">
+						<ul id="myUL">
+							<li><a href="#" class="header">Article</a></li>
+							<li><a href="http://www.databreachtoday.com/anthems-latest-headache-business-associate-breach-a-10155"><h6>Anthem's Latest Headache: Business Associate Breach:</h6><br><img class="img-fluid" src="img/portfolio/anthems.jpg" width="304" height="236"><br><p>Health insurer Anthem Inc., still dealing with the aftermath of a 2015 cyberattack that impacted nearly 79 million individuals, now is coping with another - albeit smaller - breach incident. This one involves a business associate's former employee who's currently incarcerated.</p>#Article</a></li>
+							<li><a href="http://www.databreachtoday.com/inappropriate-access-to-patient-records-spanned-14-years-a-10145"><h6>Inappropriate Access to Patient Records Spanned 14 Years:</h6><br><img class="img-fluid" src="img/portfolio/inappropriate.jpg" width="304" height="236"><br><p>Inappropriate access to electronic patient records by a clerk for 14 years at a state-run psychiatric facility in Massachusetts shows just how difficult it can be to detect and prevent long-term breaches involving insiders.</p>#Article</a></li>
+							<li><a href="http://www.databreachtoday.com/sweden-grapples-sensitive-data-leak-scandal-a-10139"><h6>Sweden Grapples with Sensitive Data Leak Scandal:</h6><br><img class="img-fluid" src="img/portfolio/sweden.jpg" width="304" height="236"><br><p>Sweden is grappling with the fallout from a data breach that occurred two years ago and the scope of which has only recently trickled out. It resulted in the prosecution of the former head of the Transport Agency and deep questions over an outsourcing arrangement with IBM.</p>#Article</a></li>
+
+							<li><a href="#" class="header">Interview</a></li>
+							<li><a href="http://www.databreachtoday.com/interviews/when-would-us-russian-cyber-talks-be-appropriate-i-3652"><h6>When Would US-Russian Cyber Talks Be Appropriate?</h6><br><img class="img-fluid" src="img/portfolio/when.jpg" width="304" height="236"><br><p>The ISMG Security Report leads with an analysis of when it would be appropriate for the United States and Russia to engage in cybersecurity negotiations. Also, how NotPetya malware attack victims continue to struggle weeks later.</p>#Interview</a></li>
+							<li><a href="http://www.databreachtoday.com/interviews/6-steps-to-secure-remote-access-i-3648"><h6>6 Steps to Secure Remote Access:</h6><br><img class="img-fluid" src="img/portfolio/6-steps.jpg" width="304" height="236"><br><p>Remote access has been a concern since the dial-up days of the internet's infancy. But ubiquitous connectivity only increases enterprise security concerns, says Bomgar's Sam Elliott, who outlines six steps to secure remote access.</p>#Interview</a></li>
+							<li><a href="http://www.databreachtoday.com/interviews/rise-ransomware-as-a-service-i-3649"><h6>The Rise of Ransomware-as-a-Service:</h6><br><img class="img-fluid" src="img/portfolio/threat.jpg" width="304" height="236"><br><p>How will ransomware-as-a-service develop? What IoT exploits await the enterprise? Dan Schiappa of Sophos weighs in on how the cybersecurity threat landscape is likely to develop over the next five years.</p>#Interview</a></li>
+
+							<li><a href="#" class="header">Whitepaper</a></li>
+							<li><a href="http://www.databreachtoday.com/whitepapers/how-crimeware-as-service-enables-phishing-attacks-w-3534"><h6>How Crimeware as a Service Enables Phishing Attacks:</h6><br><img class="img-fluid" src="img/portfolio/how.jpg" width="236" height="304"><br><p>A simple Google search provides attackers with the how-to on where to find and purchase a phishing kit. This allows both sophisticated criminal organizations and the new, or "wannabe hackers," the same advantage when it comes to phishing attacks. With such a large amount of attacks from a variety of sources...</p>#Whitepaper</a></li>
+							<li><a href="http://www.databreachtoday.com/whitepapers/how-worlds-first-cognitive-security-system-helping-stop-attacks-w-3535"><h6>How the World's First Cognitive Security System is Helping Stop Attacks:</h6><br><img class="img-fluid" src="img/portfolio/how-worlds.jpg" width="236" height="304"><br><p>Since its debut two years ago, Watson for Cyber Security is now being used by analysts to help their enterprises defend against attacks. Security operations centers are using it to address challenges around the skills gap, to relive pressure from analysts and to process unstructured data. Download this whitepaper...</p>#Whitepaper</a></li>
+							<li><a href="http://www.databreachtoday.com/whitepapers/making-shift-to-human-centered-security-w-3522"><h6>Making the Shift to Human-Centered Security:</h6><br><img class="img-fluid" src="img/portfolio/making.jpg" width="236" height="304"><br><p>Traditionally in cybersecurity, technology is the central focus. Adversaries act; security controls respond. But Richard Ford of Forcepoint says it is time to change the dynamic with a shift to human-centered security. The traditional, tech-centric approach cedes too much control to the attackers, says Ford, Chief...</p>#Whitepaper</a></li>
+
+						</ul>
+						<div class="col-lg-12 text-center">
+							<!-- 						<input class="btn btn-primary center-block" id ="searchBtn" type="button" value="Search" onclick='searchKeyword()'> -->
+							<!-- 						<p class="help-block text-danger"></p> -->
+							<!-- 						<button class="btn btn-primary center-block" onclick="searchKeyword()">Search</button> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+	</section>
+
+	<!-- Contact -->
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading">Contact Us</h2>
+					<h4 class="section-heading text-muted">Wellcome to our location!</h4>
+					<div id="map"></div>
+				</div>
+			</div>
+
+		</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="contact-information">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 text-left">
+
+
+				</div>
+				<!-- /.col-md-6 -->
+				<div class="col-md-6 col-sm-6 text-right">
+					<ul>
+						<p>Address: 9/F, VTC Tower 27 Wood Road Wan Chai</p>
+						<div>Tel: (852)39743664</div>
+						<p><a href="mailto:jesterusa94150363@gmail.com" target="_top">Email: jesterusa94150363@gmail.com</a></p>
+
+					</ul>
+				</div>
+				<!-- /.col-md-6 -->
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.contact-information -->
+	</footer>
+
+	<!-- Portfolio Modals -->
+
+	<!-- Modal 1 -->
+	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 offset-lg-2">
+							<div class="modal-body">
+								<!-- Project Details Go Here -->
+								<h2>Capability of institutions </h2>
+								<p class="item-intro text-muted">Hong Kong in coping with major computer security incidents.</p>
+								<img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+								<p>
+									The Government attaches great importance to information and cyber security and has all along been closely monitoring the trend of cyber attacks and related security threats. Having made reference to the latest information security management system standards
+									published by the International Organization for Standardization (ISO) / International Electrotechnical Commission (IEC) (the ISO/IEC 27001: 2013 edition), the industry best practices (e.g. COBIT5, etc.) and the internal information security needs
+									of the Government, the Government has formulated a comprehensive set of Government IT Security Policy and Guidelines (Policy and Guidelines), setting out the requirements for establishing, implementing, maintaining and continually improving the
+									information security management system for compliance by all bureaux and departments (B/Ds).
+								</p>
+								<ul class="list-inline">
+									<li>Date: 07 Jun 2017</li>
+								</ul>
+								<button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close Project</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal 2 -->
+	<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 offset-lg-2">
+							<div class="modal-body">
+								<!-- Project Details Go Here -->
+								<h2>Guards against ransomware attacks</h2>
+								<p class="item-intro text-muted">Government guards against ransomware attacks.</p>
+								<img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+								<p>
+									The Office of the Government Chief Information Officer (OGCIO) said today (May 15) that reminders had been sent in the past few days to urge all government departments to enhance their resilience capabilities through backup of data and updating of Windows
+									software to guard against the ransomware WannaCry. The OGCIO has thus far not received any security incident reports from government departments on WannaCry. All government information systems are operating as usual. The Government Computer Emergency
+									Response Team will continue to work closely with the computer emergency response teams of other places to exchange cyber security threat information. The Government's multi-layered cyber security systems recently detected the attempted intrusion
+									of a malicious software into its information systems. Over 10,000 suspicious mails had been sent to government accounts and around 100 of them were delivered to users' mailboxes. The OGCIO took immediate action and confirmed that this malicious
+									software was the ransomware Jaff that was spreading on the Internet. This malicious software does not make an active attack on other computers. The operation of the Government's information systems has not been affected.
+								</p>
+								<ul class="list-inline">
+									<li>Date: 17 May 2017</li>
+								</ul>
+								<button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close Project</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal 3 -->
+	<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 offset-lg-2">
+							<div class="modal-body">
+								<!-- Project Details Go Here -->
+								<h2>Stays vigilant</h2>
+								<p class="item-intro text-muted">Government stays vigilant to ransomware attacks.</p>
+								<img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+								<p>
+									With the ransomware WannaCry spreading quickly around the world, the Government will continue to stay vigilant and guard against the ransomware, the Secretary for Innovation and Technology, Mr Nicholas W Yang, said today (May 15). So far, the Office of
+									the Government Chief Information Officer (OGCIO) has not yet received from government departments any security incident report on the ransomware threat, and all government information systems are operating normally. The Government has all along
+									been closely monitoring the trends of cyber attacks and security threats. Within the Government, the OGCIO closely monitors the daily operation of government systems to scan, detect and defend them from any possible malicious attacks. The OGCIO
+									will immediately provide technical support and advice on preventive measures to government departments as warranted, e.g. updating Windows software and strengthening the backup of data, to enhance their resilience capability. In the wake of increasing
+									threats of worldwide cyber attacks, the Government Computer Emergency Response Team (GovCERT.HK) has been working with the Asia Pacific Computer Emergency Response Team, and the computer emergency response teams of the Mainland and other governments,
+									to exchange cyber security threat information. Mr Yang added that this ransomware attack is not just a cyber security issue but also involves cyber crime. To protect business or personal computers from ransomware threats, the public should back
+									up important data offline and disconnect the backup copy from the computer. They should not browse or download any files from suspicious websites. It is also important not to open any attachments or hyperlinks from suspicious emails or instant
+									messages. The public should regularly check and update anti-malware software and its signatures to the latest versions and apply the latest software patches. The Government will continue to disseminate up-to-date information and reminders regarding
+									cyber security to the public through the InfoSec website (infosec.gov.hk). In case of ransomware infections, the public should seek assistance from the Hong Kong Police Force and the Hong Kong Computer Emergency Response Team Coordination Centre
+									as soon as possible to join hands in combating ransomware attacks.
+								</p>
+								<ul class="list-inline">
+									<li>Date: 15 May 2017</li>
+								</ul>
+								<button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close Project</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal 4 -->
+	<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 offset-lg-2">
+							<div class="modal-body">
+								<!-- Project Details Go Here -->
+								<h2>Publishes Investigation Report</h2>
+								<p class="item-intro text-muted">Privacy Commissioner Publishes Investigation Report on the Loss of Registration and Electoral Office’s Notebook Computers containing Personal Data of Election Committee Members and Electors
+								</p>
+								<img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+								<p>Having considered all the circumstances of the case, the Privacy Commissioner Stephen Kai-yi WONG also makes the following recommendations: - • Use only “necessary” personal data in different elections Only make available the personal data for
+									access or use on a “need-to-know” and “need-to-use” basis, especially when portable storage devices such as notebook computers are involved. Adopt the principle of least-privileged rights, by which only staffs authorised to handle identity verification
+									would be able to retrieve or access relevant personal data. • Strictly review, approve and monitor the download and copying of systems containing Electors’ personal data Strictly evaluate the necessity of downloading and copying systems containing
+									Electors’ personal data and set approval procedures and standards. Monitor if any system containing Electors’ personal data has been downloaded or copied without authorisation. Such systems and the related servers should record all activity logs
+									to trace any access, use, download, edit and/or deletion of the data by a system user. Install monitoring and alarm mechanisms in all the systems containing the Electors’ personal data and the related servers, so that whenever there is any irregularity
+									(e.g. download or deletion of huge personal data), timely reporting of the case, as well as tracing and reviews can be done. • Adopt effective technical security measures when storing Electors’ personal data Personal data should not be stored
+									in notebook computers or portable storage devices unless absolutely necessary. If it is necessary to store the Electors’ personal data in notebook computers or portable storage devices, effective technical security measures should be adopted
+									according to the quantity and sensitivity of the data, e.g. two-factor authentication in data access, etc.</p>
+								<ul class="list-inline">
+									<li>Date: 12 June 2017</li>
+								</ul>
+								<button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close Project</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal 5 -->
+	<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 offset-lg-2">
+							<div class="modal-body">
+								<!-- Project Details Go Here -->
+								<h2>Follows Up on Privacy Concerns Over</h2>
+								<p class="item-intro text-muted">Privacy Commissioner Follows Up on Privacy Concerns Over the Collection and Integration of User's Personal Data by Three Mobile Apps with "Call-Blocking" Function</p>
+								<img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+								<p>In relation to the three mobile apps with the “call blocking” function that are suspected of collecting and integrating users’ phone books into a database for public access, the Privacy Commissioner for Personal Data, Hong Kong (“Privacy Commissioner”),
+									Mr Stephen Kai-yi WONG, has already approached the relevant overseas data protection authorities for follow-up actions pursuant to international cooperation arrangements, and will continue to closely monitor the development of the situation.
+									He also highlighted the simple steps that the public may follow to submit their opt-out requests.!</p>
+								<ul class="list-inline">
+									<li>Date: 21 November 2016</li>
+								</ul>
+								<button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close Project</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal 6 -->
+	<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 offset-lg-2">
+							<div class="modal-body">
+								<!-- Project Details Go Here -->
+								<h2>E-Wallet</h2>
+								<p class="item-intro text-muted">Privacy Commissioner Provides Practical Tips and Advice on Controlling Personal Data</p>
+								<img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+								<p>In view of the privacy issues related to the stored value facilities (“e-Wallets”) mentioned by the Hong Kong Monetary Authority in its inSight article yesterday and other parties concerns in relation to personal data privacy, Mr Stephen Kai-yi
+									WONG, the Privacy Commissioner for Personal Data (“Privacy Commissioner”), urged that individuals should vigilantly keep in control of their own personal data, and the e-Wallet operators should aim to win customers’ trust by respecting their
+									privacy right and safeguarding their personal data. Depending on the services required, e-Wallets operators may need to collect different types and amount of personal data. For example, if an e-Wallet user would like to use the person-to-person
+									(P2P) payment transaction service, the operator needs to access and collect the user’s phonebook data stored in his mobile device in order to process the payment and notification. The collection of the additional personal data is not of itself
+									necessarily privacy-intrusive. e-Wallet operators should offer a level-playing field on its e-Wallet app, and let the users decide if they allow the app access or collect information (such as locations, contact lists, etc.) from their mobile
+									devices, and allow the customers to withdraw the consent at any time without prejudice to their use of the e-Wallet. e-Wallets users should find out what personal data will be required at different stages of the account operation. For example,
+									an e-Wallet operator may require a small amount of personal data (e.g. name and email address) to open an account, but an extensive amount when upgrading or closing an account, with the balance of the account to be withdrawn. To improve transparency,
+									e-Wallet operators should inform and remind customers clearly of what personal data will be required as and when appropriate.</p>
+								<ul class="list-inline">
+									<li>Date: 25 August 2016</li>
+								</ul>
+								<button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close Project</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap core JavaScript -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/tether/tether.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	<!-- Contact form JavaScript -->
+	<script src="js/jqBootstrapValidation.js"></script>
+	<script src="js/contact_me.js"></script>
+
+	<!-- Custom scripts for this template -->
+	<script src="js/agency.min.js"></script>
+	<script>
+		window.onload = function() {
+			$("#li1").hide();
+			$("#li2").hide();
+		}
+		var rulList;
+
+		function updateFavouriteList(list) {
+			urlList = list;
+			document.getElementById("fav_list").innerHTML = "";
+			for (var i = 0; i < list.length; i++) {
+				document.getElementById("fav_list").innerHTML +=
+					"<div class='col-md-2 col-sm-6 col-md-offset-0'>" +
+					"<div class='gallery-item'>" +
+					"<img id='image' src=" + list[i] + " alt='image'>" +
+					"<div style ='text-align: center;'>" +
+					"<input type'button' value='Drop' style='height:35px;width:100px' onclick='remove(" + i + ")'>" +
+					"</div>" +
+					"</div>" +
+					"</div>";
+			}
+		}
+
+		function remove(num) {
+			var user = {};
+			user.action = "remove_favourite";
+			user.url = urlList[num];
+			$.ajax({
+				url: "http://project-jesterusa94150363246592.codeanyapp.com:5001/webproject/index.html",
+				type: "POST",
+				data: user
+			});
+			return false;
+		}
+
+		function initMap() {
+			var vtctown = {
+				lat: 22.276494,
+				lng: 114.177482
+			};
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 15,
+				center: vtctown
+			});
+			var marker = new google.maps.Marker({
+				position: vtctown,
+				map: map
+			});
+		}
+
+		function doConfirm(img) {
+			if (confirm("Do you want to add this photo in your favourite list?")) {
+				var user = {};
+				user.action = "add_favourite";
+				user.url = $("#" + img).attr("src");
+				$.ajax({
+					url: "http://project-jesterusa94150363246592.codeanyapp.com:5001/webproject/index.html",
+					type: "POST",
+					data: user
+				});
+				return false;
+			}
+		}
+
+		function myFunction() {
+			// Declare variables
+			var input, filter, ul, li, a, i;
+			input = document.getElementById('myInput');
+			filter = input.value.toUpperCase();
+			ul = document.getElementById("myUL");
+			li = ul.getElementsByTagName('li');
+
+			// Loop through all list items, and hide those who don't match the search query
+			for (i = 0; i < li.length; i++) {
+				a = li[i].getElementsByTagName("a")[0];
+				if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+					li[i].style.display = "";
+				} else {
+					li[i].style.display = "none";
+				}
+			}
+		}
+	</script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiRL-zVkPPMIn58j6iB0lhMx07pM8gdhg&callback=initMap">
+	</script>
+
+
+
+
+</body>
+
+</html>
